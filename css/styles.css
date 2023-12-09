@@ -1,0 +1,116 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2c2c2c;
+  background-color: #fefefe;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+button {
+  font-family: inherit;
+  color: currentColor;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 16px;
+}
+.section-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.hero-title,
+.section-title {
+  font-weight: 700;
+  line-height: 1.2;
+}
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 30px;
+  max-width: 502px;
+}
+.section-title {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.section-caption {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.reviews-user,
+.footer-desc {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.reviews-desc,
+.offerings-desc {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.offerings-title {
+  max-width: 526px;
+}
+.favorites-title,
+.subscribe-title {
+  max-width: 656px;
+}
+.reviews-title {
+  max-width: 500px;
+}
+.offerings,
+.reviews {
+  background-color: #ffe550;
+}
+.header-link,
+.footer-menu-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.14;
+}
+.header-link:hover,
+.header-link:focus,
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  font-weight: 700;
+  color: #bbf330;
+  text-decoration-line: underline;
+}
+.footer-link,
+.footer-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+}
+.footer-link {
+  color: #7eb101;
+  text-decoration-line: underline;
+}
